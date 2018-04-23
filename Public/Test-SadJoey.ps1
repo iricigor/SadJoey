@@ -10,14 +10,14 @@ function Test-SadJoey {
     )
 
     $JoeyScores = @{
-        "anger" = 0.0342987478;
-        "contempt" = 0.05022303;
-        "disgust" = 0.00261588767;
-        "fear" = 0.000114794304;
-        "happiness" = 1.594046E-05;
-        "neutral" = 0.78511554;
-        "sadness" = 0.127175733;
-        "surprise" = 0.000440317672
+        "anger" = 0.0112354308;
+        "contempt" = 0.00654790876;
+        "disgust" = 0.0008751894;
+        "fear" = 0.000156739319;
+        "happiness" = 1.14264813E-05;
+        "neutral" = 0.920633435;
+        "sadness" = 0.0599093549;
+        "surprise" = 0.00063054
       }
 
       $EmotionsMap = @{
@@ -50,9 +50,10 @@ function Test-SadJoey {
     }
 
     if ($Response -ne 'string') {
-        $PreContent = "<table><tr><td><img src='$URL'></td><td><img src='http://bit.ly/SJ-Joey'</td></tr></table>"
+        $PreContent = "<table><tr><td><img src='$URL' style=`"max-width:320px;`"></td><td><img src='http://bit.ly/SJ-Joey'</td></tr></table>"
+        $PostContent = "<a href=`"https://sadjoey.azurewebsites.net/api/SJ`">Go Back</a>"
         # PowerShell cannot handle single column properly
-        $ReturnValue = $ReturnValue | % { [pscustomobject]@{name=$_} } | ConvertTo-Html -Title 'Sad Joey test' -PreContent $PreContent
+        $ReturnValue = $ReturnValue | % { [pscustomobject]@{name=$_} } | ConvertTo-Html -Title 'Sad Joey test' -PreContent $PreContent -PostContent $PostContent
         $ReturnValue = $ReturnValue | % {if ($_ -notin @('<tr><th>*</th></tr>','<colgroup><col/></colgroup>')) {$_}} 
     }
 

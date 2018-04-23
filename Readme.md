@@ -13,7 +13,9 @@ For that, you can use one the many [quick photo sharing](https://www.bing.com/se
 
 ## In Action
 
-You can see it live in action at https://sadjoey.azurewebsites.net/api/SJ. Or, check a link with my photo [here](https://sadjoey.azurewebsites.net/api/SJ?Name=Igor&URL=http://bitly.com/SJ-Igor).
+You can see it live in action at https://sadjoey.azurewebsites.net/api/SJ. Or, check a link with [my photo here](https://sadjoey.azurewebsites.net/api/SJ?Name=Igor&URL=http://bitly.com/SJ-Igor) or check [sad Keanu here]().
+
+Or, you can try emotion API on your own [here](https://azure.microsoft.com/en-us/services/cognitive-services/emotion/).
 
 ## Application key
 
@@ -52,4 +54,9 @@ not despised at all
 - [x] add static home page
 - [x] rotate Sad Igor
 - [x] add suggestion where to upload images (temp, free, direct link)
-- [ ] add Happy Igor
+- [x] add Happy Igor, Happy Joey
+- [x] add go back link
+- [x] resize submitted image to w=320, with keeping aspect
+- [x] better Joey result
+- [ ] add full switch
+- [ ] update examples with correct results, add bitly links
