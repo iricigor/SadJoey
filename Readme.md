@@ -2,14 +2,14 @@
 
 ## Info
 
-Module compares your level of your sadness with "Sad Joey". #SadJoey is a meme created during [PS Conf 2018](http://www.psconf.eu/). See more info about [#SadJoey](https://twitter.com/hashtag/SadJoey) on Twitter.
+Module compares your level of your sadness with "Sad Joey" using [Azure Cognitive Services](https://azure.microsoft.com/en-us/services/cognitive-services/). #SadJoey is a meme created during [PS Conf 2018](http://www.psconf.eu/). See more info about [#SadJoey](https://twitter.com/hashtag/SadJoey) on Twitter.
 
 Module publishes only one function, **Test-SadJoey** with two parameters:
 - [string] **Name** (optional) - your name
 - [string] **URL** (mandatory) - public URL to your photo
 
 If you do not have your photo with public URL, you may want to temporary upload your photo online.
-For that, you can use one the many [quick photo sharing](https://www.bing.com/search?q=quick+image+sharing) online services. You just need to get direct link to your photo which you can test in your browser.
+For that, you can use one the many [quick photo sharing](https://www.bing.com/search?q=quick+image+sharing) online services. You just need to get a direct link to your photo which you can test in your browser.
 
 ## In Action
 
@@ -19,7 +19,7 @@ Or, you can try emotion API on your own [here](https://azure.microsoft.com/en-us
 
 ## Application key
 
-Module needs Cognitive services application key. It will prompt you to enter one during import. It can be obtained from [module owner](mailto:iricigor@gmail.com?Subject=TestSadJoeyAppKey).
+The module needs Cognitive services application key. It will prompt you to enter one during import. It can be obtained from [module owner](mailto:iricigor@gmail.com?Subject=TestSadJoeyAppKey).
 
 ## Examples
 
