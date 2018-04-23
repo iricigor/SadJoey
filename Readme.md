@@ -35,7 +35,7 @@ not despised at all
 ## To-Do list
 
 - [x] create 3 same sized images - Igor, Joey, Keanu
-- [ ] upload to GitHub
+- [x] upload to GitHub
 - [ ] read about keys management, how to use it in Azure functions
 - [ ] add run.ps1 to GitHub without a key!
-- [ ] add static page somewhere, GitBooks, or worst case, in script, if no parameters
+- [x] add static home page

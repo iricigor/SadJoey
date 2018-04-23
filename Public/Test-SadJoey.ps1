@@ -34,7 +34,7 @@ function Test-SadJoey {
     try {
         $Emotions = Get-Emotion $URL
     } catch {
-        if ($Key1) {throw "Error while reading emotions."}
+        if ($Key1) {throw "Error while reading emotions: $_"}
         else {throw "Please re-import module with -Force and setup application key"}
     }
 
