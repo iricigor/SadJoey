@@ -10,14 +10,14 @@ function Test-SadJoey {
     )
 
     $JoeyScores = @{
-        "anger" = 0.00301013677;
-        "contempt" = 0.00139871461;
-        "disgust" = 0.000218930392;
-        "fear" = 0.0001952641;
-        "happiness" = 2.49271034E-05;
-        "neutral" = 0.9844196;
-        "sadness" = 0.00958818849;
-        "surprise" = 0.00114422885
+        "anger" = 0.0342987478;
+        "contempt" = 0.05022303;
+        "disgust" = 0.00261588767;
+        "fear" = 0.000114794304;
+        "happiness" = 1.594046E-05;
+        "neutral" = 0.78511554;
+        "sadness" = 0.127175733;
+        "surprise" = 0.000440317672
       }
 
       $EmotionsMap = @{

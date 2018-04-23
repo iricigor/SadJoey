@@ -2,7 +2,18 @@
 
 ## Info
 
-Module compares your level of sadness with Joey's, meme created during [PS Conf 2018](http://www.psconf.eu/). See more info about [#SadJoey](https://twitter.com/hashtag/SadJoey) on Twitter.
+Module compares your level of your sadness with "Sad Joey". #SadJoey is a meme created during [PS Conf 2018](http://www.psconf.eu/). See more info about [#SadJoey](https://twitter.com/hashtag/SadJoey) on Twitter.
+
+Module publishes only one function, **Test-SadJoey** with two parameters:
+- [string] **Name** (optional) - your name
+- [string] **URL** (mandatory) - public URL to your photo
+
+If you do not have your photo with public URL, you may want to temporary upload your photo online.
+For that, you can use one the many [quick photo sharing](https://www.bing.com/search?q=quick+image+sharing) online services. You just need to get direct link to your photo which you can test in your browser.
+
+## In Action
+
+You can see it live in action at https://sadjoey.azurewebsites.net/api/SJ. Or, check a link with my photo [here](https://sadjoey.azurewebsites.net/api/SJ?Name=Igor&URL=http://bitly.com/SJ-Igor).
 
 ## Application key
 
@@ -39,5 +50,6 @@ not despised at all
 - [ ] read about keys management, how to use it in Azure functions
 - [ ] add run.ps1 to GitHub without a key!
 - [x] add static home page
-- [ ] rotate Sad Igor
-- [ ] add suggestion where to upload images (temp, free, direct link)
+- [x] rotate Sad Igor
+- [x] add suggestion where to upload images (temp, free, direct link)
+- [ ] add Happy Igor
