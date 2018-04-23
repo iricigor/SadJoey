@@ -13,7 +13,7 @@ For that, you can use one the many [quick photo sharing](https://www.bing.com/se
 
 ## In Action
 
-You can see it live in action at https://sadjoey.azurewebsites.net/api/SJ. Or, check a link with [my photo here](https://sadjoey.azurewebsites.net/api/SJ?Name=Igor&URL=http://bitly.com/SJ-Igor) or check [sad Keanu here]().
+You can see module live in action at https://sadjoey.azurewebsites.net/api/SJ as Azure PowerShell function. Or, check a link with [my photo here](https://sadjoey.azurewebsites.net/api/SJ?Name=Igor&URL=http://bitly.com/SJ-Igor), check [sad Keanu](https://sadjoey.azurewebsites.net/api/SJ?Name=Keanu&URL=http%3A%2F%2Fi0.kym-cdn.com%2Fentries%2Ficons%2Foriginal%2F000%2F002%2F862%2FSadKeanu.jpg), or [happy Joey](https://sadjoey.azurewebsites.net/api/SJ?Name=Happy+Joey&URL=https%3A%2F%2Fgithub.com%2Firicigor%2FSadJoey%2Fraw%2Fmaster%2Fother%2FHappyJoey.jpg)!
 
 Or, you can try emotion API on your own [here](https://azure.microsoft.com/en-us/services/cognitive-services/emotion/).
 
@@ -30,9 +30,9 @@ Test-SadJoey -Name 'Igor' -URL 'http://bit.ly/iricigorlinkedinphoto' -Full
 ```
 
 ```
-Hi Igor, you are 10 times less sad than Joey.
+Hi Igor, you are 127 times less sad than Joey.
 
-Hi Keanu, you are 77 percent more sad than Joey.
+Hi Keanu, you are 7 times less sad than Joey.
 
 Hi Igor, here is your emotions report:
 not neutral at all
@@ -59,4 +59,4 @@ not despised at all
 - [x] resize submitted image to w=320, with keeping aspect
 - [x] better Joey result
 - [ ] add full switch
-- [ ] update examples with correct results, add bitly links
+- [x] update examples with correct results, add bitly links
