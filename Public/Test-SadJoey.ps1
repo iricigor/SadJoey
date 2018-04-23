@@ -50,7 +50,7 @@ function Test-SadJoey {
     }
 
     if ($Response -ne 'string') {
-        $PreContent = "<table><tr><td><img src='$URL'></td><td><img src='https://i.imgflip.com/28monq.jpg'</td></tr></table>"
+        $PreContent = "<table><tr><td><img src='$URL'></td><td><img src='http://bit.ly/SJ-Joey'</td></tr></table>"
         # PowerShell cannot handle single column properly
         $ReturnValue = $ReturnValue | % { [pscustomobject]@{name=$_} } | ConvertTo-Html -Title 'Sad Joey test' -PreContent $PreContent
         $ReturnValue = $ReturnValue | % {if ($_ -notin @('<tr><th>*</th></tr>','<colgroup><col/></colgroup>')) {$_}} 

@@ -11,7 +11,7 @@ Module needs Cognitive services application key. It will prompt you to enter one
 ## Examples
 
 ```PowerShell
-Test-SadJoey -Name 'Igor' -URL 'http://bit.ly/sadIgor1'
+Test-SadJoey -Name 'Igor' -URL 'http://bit.ly/SJ-Igor'
 Test-SadJoey -Name 'Keanu' -URL 'http://i0.kym-cdn.com/entries/icons/original/000/002/862/SadKeanu.jpg'
 Test-SadJoey -Name 'Igor' -URL 'http://bit.ly/iricigorlinkedinphoto' -Full
 ```
@@ -39,3 +39,5 @@ not despised at all
 - [ ] read about keys management, how to use it in Azure functions
 - [ ] add run.ps1 to GitHub without a key!
 - [x] add static home page
+- [ ] rotate Sad Igor
+- [ ] add suggestion where to upload images (temp, free, direct link)

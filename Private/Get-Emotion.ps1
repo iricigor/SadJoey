@@ -6,7 +6,7 @@ function Get-Emotion ([string]$URL) {
     # build and invoke request
     $Body = '{"url": "' + $URL + '"}'
     $Headers = @{'Content-Type' = 'application/json'; 'Ocp-Apim-Subscription-Key' = $Key1} # see Read.Me for key info
-    $Result = Invoke-WebRequest -Body $Body -Uri $Endpoint -Headers $Headers -Method Post 
+    $Result = Invoke-WebRequest -Body $Body -Uri $Endpoint -Headers $Headers -Method Post -UseBasicParsing
     
     # return array of emotions
     $ReturnObject = $Result.Content | ConvertFrom-Json
