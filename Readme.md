@@ -17,9 +17,9 @@ For that, you can use one the many [quick photo sharing](https://www.bing.com/se
 
 Module is also published as Azure PowerShell function. You can see live in action at this URL: https://sadjoey.azurewebsites.net/api/SJ.
 
-Or, just click a link with [my photo here](https://sadjoey.azurewebsites.net/api/SJ?Name=Igor&URL=https://github.com/iricigor/SadJoey/raw/master/img/SadIgor.jpg), check [sad Keanu](https://sadjoey.azurewebsites.net/api/SJ?Name=Keanu&URL=http%3A%2F%2Fi0.kym-cdn.com%2Fentries%2Ficons%2Foriginal%2F000%2F002%2F862%2FSadKeanu.jpg), or [happy Joey](https://sadjoey.azurewebsites.net/api/SJ?Name=Happy+Joey&URL=https%3A%2F%2Fgithub.com%2Firicigor%2FSadJoey%2Fraw%2Fmaster%2Fimg%2FHappyJoey.jpg)!
+Or, just click a link with [my photo here](https://sadjoey.azurewebsites.net/api/SJ?Name=Igor&Full=1&URL=https://github.com/iricigor/SadJoey/raw/master/img/HappyIgor.jpg), check [sad Keanu](https://sadjoey.azurewebsites.net/api/SJ?Name=Keanu&URL=http%3A%2F%2Fi0.kym-cdn.com%2Fentries%2Ficons%2Foriginal%2F000%2F002%2F862%2FSadKeanu.jpg), or [happy Joey](https://sadjoey.azurewebsites.net/api/SJ?Name=Happy+Joey&URL=https%3A%2F%2Fgithub.com%2Firicigor%2FSadJoey%2Fraw%2Fmaster%2Fimg%2FHappyJoey.jpg)!
 
-You can try and learn Microsoft Azure **Emotion API** on your own [here](https://azure.microsoft.com/en-us/services/cognitive-services/emotion/).
+You can try and learn Microsoft Azure **Face API** on your own [here](https://azure.microsoft.com/en-us/services/cognitive-services/face/) - scroll to Face detection.
 
 ## Application key
 
