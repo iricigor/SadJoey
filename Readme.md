@@ -13,22 +13,24 @@ For that, you can use one the many [quick photo sharing](https://www.bing.com/se
 
 ## In Action
 
-You can see module live in action at https://sadjoey.azurewebsites.net/api/SJ as Azure PowerShell function.
+Module is also published as Azure PowerShell function. You can see live in action at this URL: https://sadjoey.azurewebsites.net/api/SJ.
 
-Or, check a link with [my photo here](https://sadjoey.azurewebsites.net/api/SJ?Name=Igor&URL=http://bitly.com/SJ-Igor), check [sad Keanu](https://sadjoey.azurewebsites.net/api/SJ?Name=Keanu&URL=http%3A%2F%2Fi0.kym-cdn.com%2Fentries%2Ficons%2Foriginal%2F000%2F002%2F862%2FSadKeanu.jpg), or [happy Joey](https://sadjoey.azurewebsites.net/api/SJ?Name=Happy+Joey&URL=https%3A%2F%2Fgithub.com%2Firicigor%2FSadJoey%2Fraw%2Fmaster%2Fother%2FHappyJoey.jpg)!
+Or, just click a link with [my photo here](https://sadjoey.azurewebsites.net/api/SJ?Name=Igor&URL=URL=https%3A%2F%2Fgithub.com%2Firicigor%2FSadJoey%2Fraw%2Fmaster%2Fimg%2FSadIgor.jpg), check [sad Keanu](https://sadjoey.azurewebsites.net/api/SJ?Name=Keanu&URL=http%3A%2F%2Fi0.kym-cdn.com%2Fentries%2Ficons%2Foriginal%2F000%2F002%2F862%2FSadKeanu.jpg), or [happy Joey](https://sadjoey.azurewebsites.net/api/SJ?Name=Happy+Joey&URL=https%3A%2F%2Fgithub.com%2Firicigor%2FSadJoey%2Fraw%2Fmaster%2Fimg%2FHappyJoey.jpg)!
 
-Or, you can try and learn Microsoft Azure **Emotion API** on your own [here](https://azure.microsoft.com/en-us/services/cognitive-services/emotion/).
+You can try and learn Microsoft Azure **Emotion API** on your own [here](https://azure.microsoft.com/en-us/services/cognitive-services/emotion/).
 
 ## Application key
 
-The module needs Cognitive services application key. It will prompt you to enter one during import. It can be obtained from [module owner](mailto:iricigor@gmail.com?Subject=TestSadJoeyAppKey).
+The PowerShell module needs Cognitive services application key. It will prompt you to enter one during import. It can be obtained from [module owner](mailto:iricigor@gmail.com?Subject=TestSadJoeyAppKey).
+
+The Azure Functions example has no such limitation.
 
 ## Examples
 
 ```PowerShell
-Test-SadJoey -Name 'Igor' -URL 'http://bit.ly/SJ-Igor'
+Test-SadJoey -Name 'Igor' -URL 'http://bit.ly/SJ-SadIgor'
 Test-SadJoey -Name 'Keanu' -URL 'http://i0.kym-cdn.com/entries/icons/original/000/002/862/SadKeanu.jpg'
-Test-SadJoey -Name 'Igor' -URL 'http://bit.ly/iricigorlinkedinphoto' -Full
+Test-SadJoey -Name 'Igor' -URL 'http://bit.ly/SJ-HappyIgor' -Full
 ```
 
 ```

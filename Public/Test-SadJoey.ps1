@@ -50,10 +50,12 @@ function Test-SadJoey {
     }
 
     if ($Response -ne 'string') {
-        $PreContent = "<table><tr><td><img src='$URL' style=`"max-width:320px;`"></td><td><img src='http://bit.ly/SJ-Joey'</td></tr></table>"
+        $Title = 'Sad Joey Test'
+        $JoeyURL = 'http://bit.ly/SJ-SadJoey'
+        $PreContent = "<table><tr><td><img src='$URL' style=`"max-width:320px;`"></td><td><img src='$JoeyURL'</td></tr></table>"
         $PostContent = "<a href=`"https://sadjoey.azurewebsites.net/api/SJ`">Go Back</a>"
         # PowerShell cannot handle single column properly
-        $ReturnValue = $ReturnValue | % { [pscustomobject]@{name=$_} } | ConvertTo-Html -Title 'Sad Joey test' -PreContent $PreContent -PostContent $PostContent
+        $ReturnValue = $ReturnValue | % { [pscustomobject]@{name=$_} } | ConvertTo-Html -Title $Title -PreContent $PreContent -PostContent $PostContent
         $ReturnValue = $ReturnValue | % {if ($_ -notin @('<tr><th>*</th></tr>','<colgroup><col/></colgroup>')) {$_}} 
     }
 
