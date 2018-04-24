@@ -11,9 +11,10 @@
 - [x] add go back link
 - [x] resize submitted image to w=320, with keeping aspect
 - [x] better Joey result
-- [ ] add and test "-full" switch
+- [x] add and test "-full" switch
 - [x] update examples with correct results, add bitly links
 - [x] split readme
 - [x] move images to dedicated folder
 - [x] update bitly links
-- [ ] catch and display errors from Cognitive Services, specially file cannot be read
+- [x] catch and display errors from Cognitive Services, specially file cannot be read
+- [x] handle if no emotions read

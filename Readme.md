@@ -4,9 +4,11 @@
 
 Module compares your level of your sadness with "Sad Joey" using [Azure Cognitive Services](https://azure.microsoft.com/en-us/services/cognitive-services/). #SadJoey is a meme created during [PS Conf 2018](http://www.psconf.eu/). See more info about [#SadJoey](https://twitter.com/hashtag/SadJoey) on Twitter.
 
-Module publishes only one function, **Test-SadJoey** with two parameters:
+Module publishes only one function, **Test-SadJoey** with four parameters:
 - [string] **Name** (optional) - your name
 - [string] **URL** (mandatory) - public URL to your photo
+- [switch] **Full* (optional) - if specified, it will return comparison for all basic emotions, except just for sadness
+- [string] **Response** - specify response type, which can be String (default value), HTML or InvokeHTML (opens default browser)
 
 If you do not have your photo with public URL, you may want to temporary upload your photo online.
 For that, you can use one the many [quick photo sharing](https://www.bing.com/search?q=quick+image+sharing) online services. You just need to get a direct link to your photo which you can test in your browser.
@@ -15,7 +17,7 @@ For that, you can use one the many [quick photo sharing](https://www.bing.com/se
 
 Module is also published as Azure PowerShell function. You can see live in action at this URL: https://sadjoey.azurewebsites.net/api/SJ.
 
-Or, just click a link with [my photo here](https://sadjoey.azurewebsites.net/api/SJ?Name=Igor&URL=URL=https%3A%2F%2Fgithub.com%2Firicigor%2FSadJoey%2Fraw%2Fmaster%2Fimg%2FSadIgor.jpg), check [sad Keanu](https://sadjoey.azurewebsites.net/api/SJ?Name=Keanu&URL=http%3A%2F%2Fi0.kym-cdn.com%2Fentries%2Ficons%2Foriginal%2F000%2F002%2F862%2FSadKeanu.jpg), or [happy Joey](https://sadjoey.azurewebsites.net/api/SJ?Name=Happy+Joey&URL=https%3A%2F%2Fgithub.com%2Firicigor%2FSadJoey%2Fraw%2Fmaster%2Fimg%2FHappyJoey.jpg)!
+Or, just click a link with [my photo here](https://sadjoey.azurewebsites.net/api/SJ?Name=Igor&URL=https://github.com/iricigor/SadJoey/raw/master/img/SadIgor.jpg), check [sad Keanu](https://sadjoey.azurewebsites.net/api/SJ?Name=Keanu&URL=http%3A%2F%2Fi0.kym-cdn.com%2Fentries%2Ficons%2Foriginal%2F000%2F002%2F862%2FSadKeanu.jpg), or [happy Joey](https://sadjoey.azurewebsites.net/api/SJ?Name=Happy+Joey&URL=https%3A%2F%2Fgithub.com%2Firicigor%2FSadJoey%2Fraw%2Fmaster%2Fimg%2FHappyJoey.jpg)!
 
 You can try and learn Microsoft Azure **Emotion API** on your own [here](https://azure.microsoft.com/en-us/services/cognitive-services/emotion/).
 
