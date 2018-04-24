@@ -13,9 +13,11 @@ For that, you can use one the many [quick photo sharing](https://www.bing.com/se
 
 ## In Action
 
-You can see module live in action at https://sadjoey.azurewebsites.net/api/SJ as Azure PowerShell function. Or, check a link with [my photo here](https://sadjoey.azurewebsites.net/api/SJ?Name=Igor&URL=http://bitly.com/SJ-Igor), check [sad Keanu](https://sadjoey.azurewebsites.net/api/SJ?Name=Keanu&URL=http%3A%2F%2Fi0.kym-cdn.com%2Fentries%2Ficons%2Foriginal%2F000%2F002%2F862%2FSadKeanu.jpg), or [happy Joey](https://sadjoey.azurewebsites.net/api/SJ?Name=Happy+Joey&URL=https%3A%2F%2Fgithub.com%2Firicigor%2FSadJoey%2Fraw%2Fmaster%2Fother%2FHappyJoey.jpg)!
+You can see module live in action at https://sadjoey.azurewebsites.net/api/SJ as Azure PowerShell function.
 
-Or, you can try emotion API on your own [here](https://azure.microsoft.com/en-us/services/cognitive-services/emotion/).
+Or, check a link with [my photo here](https://sadjoey.azurewebsites.net/api/SJ?Name=Igor&URL=http://bitly.com/SJ-Igor), check [sad Keanu](https://sadjoey.azurewebsites.net/api/SJ?Name=Keanu&URL=http%3A%2F%2Fi0.kym-cdn.com%2Fentries%2Ficons%2Foriginal%2F000%2F002%2F862%2FSadKeanu.jpg), or [happy Joey](https://sadjoey.azurewebsites.net/api/SJ?Name=Happy+Joey&URL=https%3A%2F%2Fgithub.com%2Firicigor%2FSadJoey%2Fraw%2Fmaster%2Fother%2FHappyJoey.jpg)!
+
+Or, you can try and learn Microsoft Azure **Emotion API** on your own [here](https://azure.microsoft.com/en-us/services/cognitive-services/emotion/).
 
 ## Application key
 
@@ -44,19 +46,3 @@ not angry at all
 not despised at all
 40117 times more happy than Joey
 ```
-
-## To-Do list
-
-- [x] create 3 same sized images - Igor, Joey, Keanu
-- [x] upload to GitHub
-- [ ] read about keys management, how to use it in Azure functions
-- [ ] add run.ps1 to GitHub without a key!
-- [x] add static home page
-- [x] rotate Sad Igor
-- [x] add suggestion where to upload images (temp, free, direct link)
-- [x] add Happy Igor, Happy Joey
-- [x] add go back link
-- [x] resize submitted image to w=320, with keeping aspect
-- [x] better Joey result
-- [ ] add full switch
-- [x] update examples with correct results, add bitly links
