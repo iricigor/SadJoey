@@ -7,7 +7,7 @@ Module compares your level of your sadness with "Sad Joey" using [Azure Cognitiv
 Module publishes only one function, **Test-SadJoey** with four parameters:
 - [string] **Name** (optional) - your name
 - [string] **URL** (mandatory) - public URL to your photo
-- [switch] **Full* (optional) - if specified, it will return comparison for all basic emotions, except just for sadness
+- [switch] **Full** (optional) - if specified, it will return comparison for all basic emotions, except just for sadness
 - [string] **Response** - specify response type, which can be String (default value), HTML or InvokeHTML (opens default browser)
 
 If you do not have your photo with public URL, you may want to temporary upload your photo online.
